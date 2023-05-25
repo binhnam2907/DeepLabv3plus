@@ -59,7 +59,7 @@ if __name__ == "__main__":
     SCORE = []
     for x, y in tqdm(zip(test_x, test_y), total=len(test_x)):
         """ Extract the name """
-        name = x.split("/")[-1].split(".")[0]
+        name = x.split("\\")[-1].split(".")[0]
 
         """ Reading the image """
         image = cv2.imread(x, cv2.IMREAD_COLOR)

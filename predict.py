@@ -26,7 +26,7 @@ if __name__ == "__main__":
     with CustomObjectScope({'iou': iou, 'dice_coef': dice_coef, 'dice_loss': dice_loss}):
         model = tf.keras.models.load_model("files/model.h5")
     """ Load the dataset """
-    data_x = glob("test_images/images/*")
+    data_x = glob("test_images/image/*")
 
     for path in tqdm(data_x, total=len(data_x)):
         """ Extracting name """

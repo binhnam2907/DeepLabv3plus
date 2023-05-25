@@ -19,6 +19,10 @@ These results are on the validation/test set.
 
 ## Qualtiative results
 These qualitative results are on the validation/test set. The figure consists of:
-- a) Input Image   ----------------   b) Masked Image
+- Input Image - Masked Image
 ![](test_images/mask/wp6244146.png)
 ![](test_images/mask/wp8725197.png)
+
+## Use this code:
+- Download dataset and put it in folder **people_segmentation**
+- Run file data.py to create newdata
